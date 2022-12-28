@@ -7,7 +7,7 @@
 //
 Console.Clear();
 
-Console.Write("Введите пятизначное число: ");
+Console.WriteLine("Введите пятизначное число: ");
 int number = int.Parse(Console.ReadLine()!);
 
 void isPalindrom()
@@ -31,7 +31,5 @@ void isPalindrom()
     Console.WriteLine($"Нет, число не является палиндромом");
   }
 }
-for (int i=0; i<1; i++)
-{ 
-  isPalindrom();
-}
+
+isPalindrom();
